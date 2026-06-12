@@ -1,0 +1,47 @@
+.logo {
+    display: block;
+    margin: 0 auto;
+}
+
+.background {
+    background-color: grey;
+}
+
+.main-text {
+    text-align: center;
+    color: lightblue;
+
+    a {
+        text-decoration: none;
+        color: rgb(47, 47, 179);
+        margin: 0 100px;
+    }
+}
+
+.register {
+
+    text-align: end;
+
+    a {
+        FONT-size: 25px;
+        text-decoration: none;
+        color: rgb(47, 47, 179);
+    }
+}
+
+a:hover {
+    color: black;
+}
+
+.tabel {
+    padding: 10px 0;
+}
+
+input[type="submit"] {
+    margin-left: 113px;
+}
+
+.text {
+    color: lightblue;
+
+}
