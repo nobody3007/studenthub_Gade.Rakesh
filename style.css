@@ -115,8 +115,6 @@ input[type="submit"] {
     flex-direction: column;
 }
 
-.journey {}
-
 a:hover {
     color: black;
 }
