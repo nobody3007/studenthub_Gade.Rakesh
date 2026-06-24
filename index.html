@@ -22,10 +22,13 @@
             </a>
         </div>
         <nav>
+            <div class="nighmode">
+                <button id="darkmode">☀️</button>
+            </div>
             <h1 class="main-text">
                 StudentHub project
-                <hr class="lines">
 
+                <hr class="lines">
                 <div class="nav">
                     <a class="box" href="Dashboard.html">Dashboard</a>
                     <a class="box" href="about.html">About</a>
@@ -53,6 +56,28 @@
                 <a href="register.html" class="journey"> click me to start your Journey. </a>
             </div>
         </div>
+        <div class="quotes-container">
+            <div class="main-text">
+                <div class="container_quote">
+                    <h1>Quote Generator</h1>
+                    <p id="quote">Click the button to get a quote</p>
+                    <button id="btn">new quote</button>
+                </div>
+
+            </div>
+            <div class="main-text">
+                <div class="container_quote" style="width:fit-content ;">
+                    <h1>GITHUB Fetcher</h1>
+                    <input style="background-color: yellow;" type="text" id="username" autocomplete="off"
+                        placeholder="Enter GitHub username">
+                    <button id="searchBtn">Search</button>
+
+                    <div id="profile"></div>
+                </div>
+
+            </div>
+        </div>
+        <script src="index.js"></script>
 
     </main>
     <footer>
