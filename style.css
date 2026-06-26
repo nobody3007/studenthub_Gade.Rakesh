@@ -200,15 +200,22 @@ a:hover {
         border-radius: 10px;
     }
 
-.bookmark-card {
-    color: lightblue;
-    border-color: yellow;
-    a{
-     
-    text-decoration: none;
-    color: yellow;
+    .bookmark-card {
+        color: lightblue;
+        border-color: yellow;
+
+        a {
+
+            text-decoration: none;
+            color: yellow;
+        }
     }
-}
+
+    .bookmark {
+        border-color: yellow;
+
+    }
+
 }
 
 #quote {
@@ -286,7 +293,7 @@ a:hover {
     border: 3px solid black;
     border-radius: 10px;
     padding: 20px;
-    
+
 }
 
 .delete-btn {
@@ -303,8 +310,8 @@ a:hover {
 }
 
 
-#tasklist
-{color: lightblue;
+#tasklist {
+    color: lightblue;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -312,6 +319,7 @@ a:hover {
     gap: 14px;
     margin-top: 20px;
 }
+
 .bookmark {
     width: fit-content;
     border: 3px solid black;
@@ -319,14 +327,16 @@ a:hover {
     padding: 20px;
 
 }
+
 .dashboard-cards {
     display: flex;
     justify-content: center;
     gap: 40px;
     align-items: flex-start;
     margin-top: 30px;
-    flex-wrap: wrap;  
+    flex-wrap: wrap;
 }
+
 .bookmark-card {
     color: lightblue;
     font-size: 25px;
@@ -338,12 +348,14 @@ a:hover {
     border: 1px solid black;
     border-radius: 10px;
     justify-content: flex-end;
-    a{
-     
-    text-decoration: none;
-    color: rgb(47, 47, 179);
+
+    a {
+
+        text-decoration: none;
+        color: rgb(47, 47, 179);
     }
 }
+
 .quick-links {
     display: flex;
     justify-content: center;
