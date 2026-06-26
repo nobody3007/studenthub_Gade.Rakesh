@@ -25,6 +25,6 @@ form.addEventListener("submit", function (event) {
     localStorage.setItem("username", username);
     localStorage.setItem("password", password);
     localStorage.setItem("email", email);
-    window.location.href = "dashboard.html";
+    window.location.href = "Dashboard.html";
 });
 
