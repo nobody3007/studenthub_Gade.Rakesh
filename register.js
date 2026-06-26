@@ -1,7 +1,7 @@
 const form = document.getElementById("regform")
 const storedusername = localStorage.getItem("username");
 if (storedusername != null) {
-    window.location.href = "dashboard.html"
+    window.location.href = "Dashboard.html"
 }
 form.addEventListener("submit", function (event) {
     event.preventDefault();
