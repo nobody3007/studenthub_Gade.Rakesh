@@ -16,6 +16,9 @@
                 </img>
             </a>
         </div>
+        <div class="nighmode">
+            <button id="darkmode">☀️</button>
+        </div>
         <nav>
             <h1 class="main-text">StudentHub project
                 <hr class="lines">
@@ -30,9 +33,44 @@
         </h1>
     </header>
     <main>
-        <h1 class="content" style="text-align: center; margin-top: 160px;">
-            Work in progress...
-        </h1>
+        <div class="main-text">
+            <h1 style="text-align: center;">
+                Student Details
+            </h1>
+            <div class="profile-container">
+                <div class="profile-card">
+                    <h2 style=" text-align: start;">
+                        <p id="username"></p>
+                        <p id="email"></p>
+                        <button style="margin-left: 328px;border-radius: 10px;background-color: red;color: yellow;"
+                            id="logout">Logout</button>
+
+                    </h2>
+                </div>
+            </div>
+
+        </div>
+        <div class="dashboard-cards">
+            <div class="task-manager">
+                <h1 class="main-text">Task Manager</h1>
+                <input style="margin-left: 60px;" text" id="taskInput" placeholder="Enter a task">
+                <button style="border-radius: 5px;" id="addTask">Add Task</button>
+                <div id="tasklist"></div>
+
+            </div>
+            <div class="bookmark">
+                <h2 class="main-text">Quick Links</h2>
+                <div class="quick-links">
+                    <input type="text" id="websiteName" placeholder="Website Name">
+                    <input type="link" id="websiteURL" placeholder="https://example.com">
+                    <button id="addLink">Add Website</button>
+                </div>
+                <div id="bookmarkList"></div>
+
+            </div>
+        </div>
+        <script src="index.js"></script>
+        <script src="dashboard.js"></script>
     </main>
     <footer>
 

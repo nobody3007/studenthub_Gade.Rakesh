@@ -16,25 +16,33 @@
                 </img>
             </a>
         </div>
+        <div class="nighmode">
+            <button id="darkmode">☀️</button>
+        </div>
         <h1 class="main-text">StudentHub project
             <hr style="border-color:blue;">
         </h1>
     </header>
     <main>
-        <form>
+        <form id="regform">
             <table align="center" class="reg-box">
                 <tr>
-                    <td><B style="color:black">Email address</B></td>
-                    <td><input type="email" /></td>
-
-                </tr>
-                <tr class="tabel">
-                    <td><B style="color:black">Password</B></td>
-                    <td><input type="password" /></td>
-
+                    <td><B class="values">Email address</B></td>
+                    <td><input type="email" id="email" /></td>
                 </tr>
                 <tr>
-                    <td></td>
+                    <td><B class="values">User-Name</B></td>
+                    <td><input type="text" id="username" /></td>
+                </tr>
+                <tr class="tabel">
+                    <td><B class="values">Password</B></td>
+                    <td><input type="password" id="password" /></td>
+
+                </tr>
+
+                <tr>
+                    <td><button style="font-size: 10px;" id="generate" type="button"> generate a custom
+                            password</button></td>
 
                     <td>
                         <input type="submit" value="login">
@@ -43,6 +51,9 @@
                 </tr>
             </table>
         </form>
+        <script src="register.js"></script>
+        <script src="index.js"></script>
+        <script src="password_genrator.js"></script>
     </main>
     <footer>
 
