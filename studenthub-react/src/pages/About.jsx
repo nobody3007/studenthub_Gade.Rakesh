@@ -1,8 +1,20 @@
+import { Link } from "react-router-dom";
+import { useState, useEffect } from "react";
+import Header from "../components/head.jsx";
+
 function About() {
     return (
         <div>
-            <h1>About</h1>
-            <p>This website is built using React.</p>
+            <Header />
+            <main>
+                <p class="content">
+                    StudentHub is a student productivity website built by Rakesh for this bootcamp.
+                    It includes a Navbar with links for Home, Dashboard, and About to help users navigate the site.
+                    The Hero Section has a bold headline and a button to help users sign up instantly. Finally, a Features
+                    and Quick Stats section shows a quick overview of the app's tools and metrics.
+                </p>
+
+            </main>
         </div>
     );
 }
