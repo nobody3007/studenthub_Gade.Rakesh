@@ -1,0 +1,394 @@
+html,
+body,
+#root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100vh;
+  background-color: grey;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.main-text {
+  text-align: center;
+  color: lightblue;
+}
+
+input[type="submit"] {
+  margin-left: 126px;
+}
+
+.content {
+  color: lightblue;
+  font-size: 35px;
+  margin: 10px;
+  font-style: italic;
+}
+
+.nav-register {
+  display: flex;
+  justify-content: end;
+  flex-wrap: wrap;
+}
+
+.nav-register a {
+  font-size: 25px;
+  text-decoration: none;
+  color: rgb(47, 47, 179);
+
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.nav a {
+  text-decoration: none;
+  color: rgb(47, 47, 179);
+  margin: 0 100px;
+}
+
+.box {
+  width: 200px;
+  min-height: 50px;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.box:hover {
+  background-color: wheat;
+}
+
+.lines {
+  border-color: blue
+}
+
+.reg-box {
+  display: flex;
+  justify-content: center;
+  width: 328px;
+  border: 2px solid black;
+  padding: 20px;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: center;
+  align-items: flex-start;
+}
+
+.content-box {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  margin: 10px;
+  flex-direction: column;
+}
+
+.content-box a {
+
+  color: lightblue;
+  font-size: 35px;
+  margin: 10px;
+  font-style: italic;
+
+  text-decoration: none;
+  color: lightblue;
+
+
+}
+
+.container {
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  border: 3px solid black;
+  margin: 10px;
+  flex-direction: row;
+  gap: 100px;
+  min-height: 300px;
+}
+
+.image-contentbox {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  margin: 10px;
+  flex-direction: column;
+}
+
+a:hover {
+  color: black;
+}
+
+.nighmode {
+  display: flex;
+  justify-content: end;
+}
+
+#darkmode {
+  background-color: inherit;
+  color: inherit;
+  border: 1px solid yellow;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.dark-mode {
+  background-color: #121212;
+  color: white;
+
+  a {
+    text-decoration: none;
+    color: red;
+
+  }
+
+  .box {
+
+    border: 2px solid yellow;
+
+  }
+
+  .container {
+    border: 2px solid yellow;
+    border-radius: 10px;
+  }
+
+  .container_quote {
+    border: 2px solid yellow;
+    border-radius: 10px;
+  }
+
+  .container_github {
+    border: 2px solid yellow;
+    border-radius: 10px;
+  }
+
+  .reg-box {
+    border: 2px solid yellow;
+    border-radius: 10px;
+
+    input {
+      background-color: yellow;
+      color: red;
+    }
+
+    button {
+      background-color: yellow;
+      color: red;
+      border-radius: 10px;
+    }
+
+  }
+
+  .values {
+    color: white;
+  }
+
+  .profile-card {
+
+    color: red;
+    border-color: yellow;
+    border-radius: 10px;
+  }
+
+  .task-manager {
+    color: red;
+    border-color: yellow;
+    border-radius: 10px;
+  }
+
+  .bookmark-card {
+    color: lightblue;
+    border-color: yellow;
+
+    a {
+
+      text-decoration: none;
+      color: yellow;
+    }
+  }
+
+  .bookmark {
+    border-color: yellow;
+
+  }
+
+}
+
+#quote {
+  color: yellow;
+  font-size: 30px;
+  margin: 20px 0;
+}
+
+.container_quote {
+  display: flex;
+  flex-wrap: wrap;
+  border: 3px solid black;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  width: fit-content;
+
+  justify-content: center;
+
+  button {
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    color: blue;
+    border-radius: 10px;
+
+  }
+
+}
+
+.quotes-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.container_github {
+  display: flex;
+  flex-wrap: wrap;
+  border: 3px solid black;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  width: fit-content;
+
+
+  justify-content: center;
+
+  button {
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    color: blue;
+    border-radius: 10px;
+
+  }
+}
+
+.profile-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.profile-card {
+  width: 400px;
+  border: 3px solid black;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.task-manager {
+  width: 400px;
+  border: 3px solid black;
+  border-radius: 10px;
+  padding: 20px;
+
+}
+
+.delete-btn {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  background-color: darkred;
+}
+
+
+#tasklist {
+  color: lightblue;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: space-around;
+  gap: 14px;
+  margin-top: 20px;
+}
+
+.bookmark {
+  width: fit-content;
+  border: 3px solid black;
+  border-radius: 10px;
+  padding: 20px;
+
+}
+
+.dashboard-cards {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  align-items: flex-start;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+
+.bookmark-card {
+  color: lightblue;
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  gap: 137px;
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  justify-content: flex-end;
+
+  a {
+
+    text-decoration: none;
+    color: rgb(47, 47, 179);
+  }
+}
+
+.quick-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.dark-mode,
+.dark-mode #root {
+  background-color: black;
+}
+
+#tasklist {
+  color: lightblue;
+  list-style: none;
+  padding: 0;
+}
+
+#tasklist li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+}
+
+#tasklist span {
+  flex: 1;
+}
